@@ -7,6 +7,7 @@ public class Student {
 	private String password;
 	private int age;
 	private int sex;
+	private String[] teacher;
 	private String[] love;
 	
 	public int getId() {
@@ -38,6 +39,13 @@ public class Student {
 	}
 	public void setSex(int sex) {
 		this.sex = sex;
+	}
+	
+	public String[] getTeacher() {
+		return teacher;
+	}
+	public void setTeacher(String[] teacher) {
+		this.teacher = teacher;
 	}
 	public String[] getLove() {
 		return love;
